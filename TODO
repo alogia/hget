@@ -1,0 +1,22 @@
+Install these:
+    libghc-convertible-doc
+    libghc-hdbc-doc
+    libghc-bzlib-dev
+    libghc-bzlib-doc
+    libghc-blaze-html-doc
+
+Lookup some 'feed' documentation/examples
+
+Create instance of URI and HSite/HPage/HLink for the toSql and fromSql functions
+
+write xml parser for xml docs 
+
+Lookup Haskell encryption modules
+
+download:
+    "All About Monads" 
+    spbhug.folding-maps.org/wiki/MonadsEn
+    Functonal Pearls: Monadic Parsing in Haskell
+    Example code for Real World Haskell
+    http://happstack.com/docs/crashcourse/index.html
+

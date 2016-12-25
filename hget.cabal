@@ -1,0 +1,31 @@
+Name:                hget
+Version:             0.0.1
+Synopsis:            A client to watch and download new sets of files from websites
+
+-- A longer description of the package.
+-- Description:         
+License:             BSD3
+License-file:        LICENSE
+Author:              Tyler Thomas
+Maintainer:          alogia@gmail.com
+Category:            Web
+Build-type:          Simple
+Extra-source-files: TODO
+Cabal-version:       >=1.2
+
+
+Executable hget
+    Main-is:  hget.hs            
+    Build-depends: base, directory, mtl, parsec, filepath, process, time, network, HDBC-sqlite3, HDBC, transformers, HTTP, regex-compat, regex-posix, regex-base, convertible, xml, feed, random, exception-transformers, MissingH, hdaemonize, HandsomeSoup, hjs, hxt
+    Extensions: ViewPatterns
+  
+Executable rctest
+    Main-is:  rctest.hs            
+    Build-depends: base, directory, mtl, parsec, filepath, process, network, transformers, random, exception-transformers, MissingH, hdaemonize, HandsomeSoup, hjs, hxt
+    Extensions: ViewPatterns
+  
+Executable dbtest 
+    Main-is:  dbtest.hs            
+    Build-depends: base, directory, mtl, filepath, process, time, network, HDBC-sqlite3, HDBC, transformers, MissingH, hdaemonize
+    Extensions: ViewPatterns
+  
